@@ -1,0 +1,1 @@
+The CSS property `filter: blur()` doesn't work as expected on certain elements when combined with the `transform` property, especially `transform: translate3d()` or other 3D transformations.  The blur effect might not apply, appear partially, or cause unexpected rendering issues. This can be inconsistent across different browsers.
